@@ -1,0 +1,24 @@
+.riqi{
+	background-color:#FFD39B;
+	text-align: center;
+	font-size: 2em;
+	margin: 0px;
+}
+h1{
+	color:red;
+}
+.xiaobiaoti{
+	color:green;
+	margin:0px;
+	font-weight: bold;
+}
+.baidu:hover{color:red;}
+.tengxun:hover{color:red;}
+.youxi:hover{color:red;}
+.dianji{
+	font-size:20px;
+	font-weight:bold;
+}
+.tupian{
+	text-align: center;
+}
