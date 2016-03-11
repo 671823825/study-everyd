@@ -22,3 +22,21 @@ h1{
 .tupian{
 	text-align: center;
 }
+.block{
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #8B4726;
+	color: #7FFFD4;
+	text-align: center;
+	position: absolute; 
+	top:100px;
+	left:150px;
+	margin:0px;
+}
+.block-div{
+	width: 600px;
+	background-color: red;
+	height: 300px;
+	position:relative;
+}

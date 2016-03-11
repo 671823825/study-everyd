@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位与相对定位</title>
+	<style type="text/css">
+	.relative-a{
+		font-size: 30px;
+		font-weight: bold;
+		color: red;
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+	.absolute-a{
+		font-size: 30px;
+		font-weight: bold;
+		color: blue;
+		background-color: green;
+		text-align: center;
+		width: 300px;
+		position:absolute;
+		top: 235px;
+		left: 100px;
+		margin: auto;
+	}
+	.box{
+		width: 500px;
+		height:500px;
+		background-color: pink;
+		position: relative;
+	}
+	</style>
+</head>
+<body>
+<h1>绝对定位与相对定位的问题</h1>
+<p class="relative-a">相对定位A</p>
+<div class="box">
+<p class="absolute-a">绝对定位A</p>
+</div>
+</body>
+</html>
