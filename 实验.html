@@ -3,86 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>绝对定位与相对定位</title>
-	<style type="text/css">
-	.riqi{
-	background-color:#FFD39B;
-	text-align: center;
-	font-size: 2em;
-}
-	.relative-a{
-		font-size: 30px;
-		font-weight: bold;
-		color: red;
-		position: relative;
-		top: 20px;
-		left: 20px;
-	}
-	.absolute-a{
-		font-size: 30px;
-		font-weight: bold;
-		color: blue;
-		background-color: green;
-		text-align: center;
-		width: 300px;
-		position:absolute;
-		top: 235px;
-		left: 100px;
-		margin: auto;
-	}
-	.box{
-		width: 500px;
-		height:500px;
-		background-color: pink;
-		position: relative;
-	}
-	.box-2{
-		width: 600px;
-		height:600px;
-		background-color: black;
-		position: relative;
-	}
-	.a{
-		width: 200px;
-		height: 200px;
-		background-color: red;
-		text-align: center;
-		line-height: 200px;
-	}
-	.b{
-		width: 200px;
-		height: 200px;
-		background-color: yellow;
-		text-align: center;
-		line-height: 200px;
-		position: absolute;
-		left: 400px;
-		top: 0px;
-	}
-	.c{
-		width: 200px;
-		height: 200px;
-		background-color: green;
-		text-align: center;
-		line-height: 200px;
-		position: relative;
-		left: 400px;
-		top: 10px;
-
-	}
-	.d{
-		width: 200px;
-		height: 200px;
-		background-color: green;
-		text-align: center;
-		line-height: 200px;
-		position: absolute;
-		bottom: 190px;
-	}
-	.box-2 p{
-		margin: 0px;
-		color: #63B8FF;
-	}
-	</style>
+	<link rel="stylesheet" type="text/css" href="实验.css">
 </head>
 <body>
 <h1>绝对定位与相对定位的问题</h1>
@@ -92,6 +13,7 @@
 </div>
 <hr/>
 <p class="riqi">↓↓↓2016年3月12日实验↓↓↓</p>
+<p class="shili">层模型示例</p>
 <div class="box-2">
 	<div class="a">
 		<p>盒子A</p>
@@ -106,5 +28,56 @@
 		<p>盒子D</p>
 	</div>
 </div>
+<p class="shili">float浮动模型示例</p>
+<p>左浮动</p>
+<div class="float-left"></div>
+<div class="float-left"></div>
+<div  style="clear:both"></div><!--清除上面的浮动产生的影响，若不清除影响，则会导致下面的p元素位置在上面的右边，不另起一行-->
+<p>右浮动</p>
+<div class="float-right"></div>
+<div class="float-right"></div>
+<div  style="clear:both"></div>
+<p>左右浮动</p>
+<div class="float-right-left-a"></div>
+<div class="float-right-left-b"></div>
+<div  style="clear:both"></div>
+<p>三种盒子的浮动情况</p>
+<p>1.原样</p>
+<div class="float-top"></div>
+<div class="float-center"></div>
+<div class="float-bottom"></div>
+<p>2.红盒子浮动</p>
+<div class="float-top-a"></div>
+<div class="float-center-a"></div>
+<div class="float-bottom-a"></div>
+<p>3.黑盒子浮动</p>
+<div class="float-top-b"></div>
+<div class="float-center-b"></div>
+<div class="float-bottom-b"></div>
+<p>4.蓝盒子浮动</p>
+<div class="float-top-c"></div>
+<div class="float-center-c"></div>
+<div class="float-bottom-c"></div>
+<div  style="clear:both">
+<p>5.三个盒子都浮动</p>
+<div class="float-top-d"></div>
+<div class="float-center-d"></div>
+<div class="float-bottom-d"></div>
+<div  style="clear:both">
+<p>6.红黑盒子浮动</p>
+<div class="float-top-e"></div>
+<div class="float-center-e"></div>
+<div class="float-bottom-f"></div>
+<div  style="clear:both">
+<p>7.黑蓝盒子浮动</p>
+<div class="float-top-h"></div>
+<div class="float-center-g"></div>
+<div class="float-bottom-g"></div>
+<div  style="clear:both">
+<p>8.红蓝盒子浮动</p>
+<div class="float-top-i"></div>
+<div class="float-center-j"></div>
+<div class="float-bottom-i"></div>
+<div  style="clear:both">
 </body>
 </html>
