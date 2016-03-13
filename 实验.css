@@ -220,7 +220,7 @@
 		border: 2px solid blue;
 		float: left;	
 	}
-		.float-top-i{
+	.float-top-i{
 		width: 200px;
 		height: 100px;
 		border: 2px solid red;
@@ -237,3 +237,46 @@
 		border: 2px solid blue;
 		float: left;
 	}
+	.bigbox{
+		width: 1000px;
+		height: auto;
+		position: relative;
+	}
+	.bigbox-a{
+		position: absolute;
+		left: 300px;
+		top:0px;
+	}
+	.bigbox-b{
+		position: absolute;
+		left: 600px;
+		top:0px;
+	}
+	.bigbox-c{
+		position: absolute;
+		left: 900px;
+		top:0px;
+	}
+	.bigbox-d{
+		position: absolute;
+		left: 0px;
+		top:400px;
+	}
+	.bigbox-e{
+		position: absolute;
+		left: 600px;
+		top:400px;
+	}
+	.bigbox-f{
+		position: absolute;
+		left: 1000px;
+		top:400px;
+	}
+	.bigbox-g{
+		position: absolute;
+		left: 0px;
+		top:600px;
+	}
+
+
+
